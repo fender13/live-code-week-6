@@ -7,7 +7,7 @@ module.exports = (req, res, next) => {
     
     .then((data) => {
       if (data) {
-        throw 'JOKE SUDAH KE SAVE DI DATABASE'
+        throw 'JOKE SUDAH ADA DI DATABASE'
       } else {
         next()
       }
